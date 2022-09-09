@@ -27,4 +27,27 @@ describe Solver do
       expect(@solver.reverse('')).to eq ''
     end
   end
+
+  context 'When testing the fizzbuzz() method' do
+    it 'should return "fizz" when the parameter "n" is divisible by 3' do
+      result = @solver.fizzbuzz(3)
+      expect(result).to eq 'fizz'
+    end
+
+    it 'should return "buzz" when the parameter "n" is divisible by 5' do
+      result = @solver.fizzbuzz(5)
+      expect(result).to eq 'buzz'
+    end
+
+    it 'should return "fizzbuzz" when the parameter "n" is divisible by 3 AND 5' do
+      result = @solver.fizzbuzz(15)
+      expect(result).to eq 'fizzbuzz'
+    end
+
+    it 'should return the parameter "n" as a string when "n" is NOT divisible by 3 NOR 5' do
+      n = 17
+      result = @solver.fizzbuzz(n)
+      expect(result).to eq "#{n}"
+    end
+  end
 end
