@@ -19,7 +19,7 @@
 - Twitter: [@GabrielSanto997](https://twitter.com/GabrielSanto997)
 - LinkedIn: [Gabriel Santo](https://linkedin.com/in/gabriel-santo-5882a71b2/)
 
-**Judá F Teixeira**
+👤 **Judá F Teixeira**
 - GitHub: [@mrjuda](https://github.com/mrjuda "Judá Teixeira's GitHub profile")
 - LinkedIn: [@judateixeira](https://www.linkedin.com/in/judateixeira "Judá Teixeira's Linkedin profile")
 - Twitter: [@judalabs](https://twitter.com/judalabs "Judá Teixeira's Twitter profile")
