@@ -19,4 +19,12 @@ describe Solver do
       expect(result).to eq 3628800
     end
   end
+
+  context 'When testing the reverse() method' do
+    it 'should be able to return the reverse word' do
+      expect(@solver.reverse('testing')).to eq 'gnitset'
+      expect(@solver.reverse('hello')).to eq 'olleh'
+      expect(@solver.reverse('')).to eq ''
+    end
+  end
 end
